@@ -1,0 +1,17 @@
+## Ignore dev folder
+.vscode
+
+## Ignore installed composer stuff
+vendor/
+composer.lock
+
+## Ignore the constants file
+includes/constants.php
+
+## Ignore downloaded extensions
+imports/downloads/*
+!imports/downloads/.gitkeep
+imports/extension/*
+!imports/extension/.gitkeep
+imports/tmp/*
+!imports/extension/.gitkeep

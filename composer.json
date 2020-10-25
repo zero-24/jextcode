@@ -1,0 +1,21 @@
+{
+    "name": "zero-24/jextcode",
+    "type": "project",
+    "description": "The scripts powering the Joomla Extensions Elasticsearch",
+    "homepage": "https://github.com/zero-24/jextcode",
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.4.0"
+        }
+    },
+    "require": {
+		"elasticsearch/elasticsearch": "^7.9",
+		"joomla/archive": "2.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "zero24\\Helper\\": "src/"
+        }
+    }
+}
