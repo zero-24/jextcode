@@ -16,8 +16,8 @@ Thanks for your support!
 
 - Please install an [Elastic Stack](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html)
 - `mv includes/constants.dist.php includes/constants.php`
-- `nano includes/constants.php`
-- `php cli/001-fetchExtensions.php` (does nothing right now; This is intended to download all extensions based on a list of public update xml URLs)
+- `nano includes/constants.php` (Configure your Elasticsearch Host)
+- `php cli/001-fetchExtensions.php` (Does nothing right now; This is intended to download all extensions based on a list of public update xml URLs)
 - `php cli/002-unpackExtensions.php` (Extracts the extensions downloaded to the import directory)
 - `php cli/003-index.php` (Adds the extensions data to the `jextcode` index)
 - `php cli/004-search.php` (Simple search example)
