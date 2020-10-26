@@ -1,6 +1,6 @@
 # JExtCode
 
-This is an WIP application for an elastic search that holds seachable code of joomla extensions.
+This is an WIP application for an elastic search that holds seachable code of Joomla extensions.
 
 ## Sponsoring and Donation
 
